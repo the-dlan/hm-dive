@@ -9,7 +9,7 @@ This basic script uses the [Fernet library](https://cryptography.io/en/latest/fe
 Use `python hm-dive.py -h` for help.
 
 ### Notes/Warnings about use:  
-**This is an educational tool. There are much better and safer implementations of CLI encryption elsewhere**  This software is provided as-is, with no warranty or guarantee of its safety or security.  
+**This is an educational tool. There are much better and safer implementations of CLI encryption elsewhere.**  This software is provided as-is, with no warranty or guarantee of its safety or security.  
 Current implementation requires that you `cd` into the project directory to run the script.  
 This tool overwrites the targets file, and creates a new binary file containing the key.   
 The key file will also be overwritten if you try to encrypt something multiple times.  
